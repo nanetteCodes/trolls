@@ -5,8 +5,12 @@ $(document).ready(function() {
   $.ajax({url: queryURL, method: "GET"}).done(function(response) {
 
     var results = response.results;
+    //movies total
+    $('#movieNum').text("Found " + response.total_results + ' Troll Movies!');
     // Looping through each result item
     for (var i = 0; i < results.length; i++) {
+
+
       // Storing the result images
       var imgURL = 'http://image.tmdb.org/t/p/w154' + results[i].poster_path;
       // var image = $("<img>").attr("src", imgURL);
