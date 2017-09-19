@@ -8,7 +8,10 @@ h1 {
 h4 {
   color: green;
 }
-
+.heading{
+  width: 60%;
+  padding-top: 20px;
+}
 .card-image{
   width: 106px;
   height: 159px;
@@ -25,6 +28,9 @@ h4 {
   body {
     padding: 0;
     margin: 0;
+  }
+  .heading{
+    width: 90%;
   }
   .card {
     width: 100%;
