@@ -1,0 +1,10 @@
+body{
+  background-image: url('../images/rainbow.jpg');
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+h3 {
+  color: purple;
+}
